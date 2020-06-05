@@ -3,10 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>HIA Checkin/Checkout Helper</title>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <script>
   $( function() {
     $( "input" ).checkboxradio();
@@ -25,30 +24,28 @@
     <label for="radio-2">Check-Out</label>
     <input type="radio" name="radio-1" id="radio-2">
   </fieldset>
-
-    <label for="number">Select a number</label>
+  <div style="margin-top: 10px;">
+      <label for="number">Select your Institute</label>
+      <select name="number" id="number">
+        <option selected="selected">mediTEC - Lehrstuhl für Medizintechnik</option>
+        <option>MedIT - Lehrstuhl für Medizinische Informationstechnik</option>
+        <option>Lehr- und Forschungsgebiet Biomaterialien</option>
+        <option>Institut für Angewandte Medizintechnik</option>
+        <option>Institut für Experimentelle Molekulare Bildgebung</option>
+        <option>Institut für Zell- und Molekularbiologie an Grenzflächen</option>
+        <option>Institut für Zellbiologie</option>
+      </select>
+  </div>
+  <div style="margin-top: 10px;">
+    <label for="number">Select a Room</label>
     <select name="number" id="number">
-      <option>1</option>
-      <option selected="selected">2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-      <option>6</option>
-      <option>7</option>
-      <option>8</option>
-      <option>9</option>
-      <option>10</option>
-      <option>11</option>
-      <option>12</option>
-      <option>13</option>
-      <option>14</option>
-      <option>15</option>
-      <option>16</option>
-      <option>17</option>
-      <option>18</option>
-      <option>19</option>
+      <option>Raum 2.51 (Optional Beschreibung)</option>
+      <option>Raum 2.06 (Optional Beschreibung)</option>
+      <option>Etc.</option>
+      <option>Etc.</option>
+      <option>Etc.</option>
     </select>
-  
+</div>
 </div>
  
  
